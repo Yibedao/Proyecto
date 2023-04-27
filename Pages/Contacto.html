@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .wrapper{
+            width: auto;
+            margin: 20px auto 0;
+            margin-bottom: 2%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .col{
+            max-width: 850px;
+            width: auto;
+            height: auto;
+            box-sizing: border-box;
+        }
+        @media screen and (min-width: 700px){   
+        }
+        .texto{
+            background: linear-gradient(rgb(183, 5, 5), rgb(214, 151, 16)); 
+            -webkit-background-clip: text; 
+            -webkit-text-stroke: .5px black;
+            color:transparent;
+        }
+    </style>
+</head>
+<body>
+    <!--Logo-->
+    <div class="logo">
+        <img src="C:\Users\Acer\Pictures\Logo.png">
+    </div>
+    <header>
+        <!--Nav--><!--Enlaces relativos: que nos permiten navegar entre diferentes
+            páginas de nuestro sitio-->
+        <nav>
+            <FONT face="impact" style="font-size:2.5vw">
+            <p><div align="right"> 
+                <a href="../index.html" style="color:black">| Inicio |</a>
+                <a href="Equipo.html" style="color:black">| Equipo |</a>
+                <a href="Servicios.html" style="color:black">| Servicios |</a>
+                <a href="PreguntasFrecuentes.html" style="color:black">| Preguntas frecuentes |</a>
+            </div></p>
+            </FONT>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <article class="col">
+            <div style="font-family: Tahoma; text-align: center; background-color: #4091EC; border-right:5px solid black; border-left: 5px solid black;
+                border-top: 5px solid black;">
+                <div style="margin-left:10px; margin-right:10px;">
+                    <h1><img src="C:\Users\Acer\Documents\Curso Star Full\1era Preentrega\libreta-de-contactos.png" width="30px"> Información de contacto:</h3>
+                    <h2><img src="C:\Users\Acer\Documents\Curso Star Full\1era Preentrega\telefono.png" width="25px"> Consultorio: 55-2647-2300</h2>
+                    <h2><img src="C:\Users\Acer\Documents\Curso Star Full\1era Preentrega\telefono-movil.png" width="25px"> Número privado: 55-10-71-86-96</h2>
+                    <h2><img src="C:\Users\Acer\Documents\Curso Star Full\1era Preentrega\correo.png" width="25px"> Correo electrónico: elidosamon@gmail.com</h2><br>
+                </div>
+            </div>
+            <div style="font-family: Cambria; background-color: #d1d6e1; border:5px solid black"><form action="#">
+                <div style="margin-left:30px; margin-right:10px;">
+                    <h1 style="text-align: center">Formulario de contacto:</h1>
+                    <label for="nombre">Nombre(s):</label><br>
+                    <input type="text"><br>
+                    <label for="e-mail">E-mail:</label><br>
+                    <input type="e-mail" name="e-mail"><br>
+                    <label for="celular">Número de contacto:</label><br>
+                    <input type="number"><br>
+                    <label for="comentario">Comentarios:</label><br>
+                    <textarea name="textarea" style="width:90%;" rows="10"></textarea><br>
+                    <input type="submit" value="Enviar">
+                    <hr style="border:3.5px solid #d1d6e1">
+                </div>
+            </form></div>
+        </article>
+        <article class="col">
+            <div style="background-color: rgb(106, 220, 106); border:5px solid black; font-family:Verdana; text-align: center;">
+                <div style="margin-right:10px; margin-left:10px;">
+                    <h1><img src="C:\Users\Acer\Documents\Curso Star Full\1era Preentrega\mapa.png" width="35px">Dirección del consultorio:</h1>
+                    <h2>Estado de México, Coacalco, Villa de las Flores, Acónitos 1era. sección #103</h2>
+                    <!--Iframe: google maps--> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.2269741472646!2d-99.09088202490838!3d19.660319681668234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f390767252ef%3A0x66a17bab7c5f28c0!2sPrimera%20Ac%C3%B3nitos%2C%20Villa%20de%20las%20Flores%2C%20San%20Francisco%20Coacalco%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1682220530167!5m2!1ses-419!2smx"
+                        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div align="left" style="text-justify: auto;">
+                        <h1 style="font-family:Verdana;"><img src="C:\Users\Acer\Documents\Curso Star Full\1era Preentrega\calendario.png" 
+                        width="30px">Horario de servicio:</h1><ul>
+                            <li><h2>Lun-Mie-Jue-Vie-Dom: 08:00a.m.-20:00p.m.</h2></li>
+                            <li><h2>Martes y Sábado solo consultas a domicilio. El horario de consulta varia según la disponibilidad en la
+                                agenda.</h2></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </article>
+    </div>
+     
+    <div class="wrapper" style="margin-top: 5%; text-align: center;">
+        <article class="col">
+            <img src="C:\Users\Acer\Documents\Curso Star Full\1era Preentrega\gato2.jpg" style="border:2px solid silver;
+                max-width:100%; width: auto; height:auto">
+        </article>
+        <article class="col; texto" style="margin-top: 55px;">
+            <font face="impact" style="font-size: 4vw">
+            <h1 style="margin-top: 10%" >¡NO DUDES EN<br>CONTACTARNOS!</h1>
+            </font>
+        </article>
+    </div>
+    <br><br>
+</body>
+
+<footer>
+    <h3 style="margin:30px">
+    <p>Copyright 2023© Todos los derechos reservados</p>
+    <p>Queda expresamente prohibida, sin la autorización escrita de los titulares del copyright, bajo las sanciones establecidas por las leyes, la
+      reproducción total o parcial de esta obra por cualquier medio o procedimiento, comprendidas la reprografía y el tratamiento informático”.</p>
+    <p>Autor: Elisa Salgado</p>
+    <p>Puedes encontrar nuestra información de contacto en nuestra pestaña de <a href="Contacto.html" style="color:white">Contacto</a></p>
+    <p><div align="absmiddle"><img src="C:\Users\Acer\Pictures\FigLogo.png" width="auto" height="100"></div></p>
+    </h3>
+</footer>
+</html>

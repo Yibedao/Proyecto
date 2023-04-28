@@ -74,6 +74,20 @@
                         <label for="comentario">Comentarios:</label><br>
                         <textarea name="comentario" id="comentario"style="width:90%;" rows="10"></textarea><br>
                         <input type="submit" value="Enviar">
+                        <script>
+                            if(!regexEmail.test(form.correo)){
+                                errors.correo='El campo de email contiene un formato no válido'  
+                            }
+                            if(!form.comentario.trim()){
+                                errors.comentarios='El campo de comentarios no puede estar vacío'
+                            }
+                            return errors. 
+                            .then(data){
+                                console.log(data)
+                                setForm(initialData)
+                                setLoading(false)
+                            }
+                        </script>
                         <hr style="border:3.5px solid #d1d6e1">
                     </div>
                 </form>
